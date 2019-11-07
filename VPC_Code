@@ -2,8 +2,8 @@ import boto3
 
 # http://boto3.readthedocs.io/en/latest/reference/services/ec2.html#service-resource
 
-ec2 = boto3.resource('ec2', aws_access_key_id='AKIAXUNRTLTNJ75GGL5W',
-                     aws_secret_access_key='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',
+ec2 = boto3.resource('ec2', aws_access_key_id='',
+                     aws_secret_access_key='',
                      region_name='us-west-2')
 
 # create VPC
